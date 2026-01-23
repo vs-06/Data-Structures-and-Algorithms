@@ -1,0 +1,4 @@
+Data Structures and Algorithms 
+
+	1.	When you’re trying to change the pointer index like a left and right during the sliding window or two pointer problems, always change the pointer locations or pointer values after you perform the logic like adding values or removing values into an array or else finding the sum, etc. etc.
+	2.	When you’re trying to find longest substring or short sub strings, basically anything that is related to sub strings always look for a way where you can do this: instead of checking all possible combinations just slide to the next window when you find a duplicate. This way, you will reach to the substring quickly before iterating all sub strings starting from left index that are less than the length of the existing max sub string or existing longest sub string. 
